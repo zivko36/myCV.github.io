@@ -1,0 +1,229 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  
+  width: 100%;
+  
+}
+
+html,
+body {
+    background-color: rgb(142, 144, 224);
+    font-size: 16px;
+    margin-top: 1.75rem;
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    color: white;
+    background-color: aqua;
+    padding: 2rem;
+    overflow: hidden;
+    height: 4.5rem;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.intro {
+    padding-top: 3.25rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+span a {
+    position:relative;
+    right: 13.5rem;
+    width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-items: center;
+  height: 33rem;
+  overflow: scroll;
+  width: 100%;
+}
+
+.main .img {
+    position: relative;
+    left: 29%;
+    bottom: 68%;
+    width: 23%;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+} 
+
+.main .bio {
+    z-index: 1;
+    position: relative;
+    top: 10%;
+    right: 18%;
+    width: 50%; 
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1300px)  {
+  span a {
+    position:relative;
+    right: 9rem;
+    width: 100%;
+}
+
+.main .img {
+  width: 30%;
+}
+
+}
+
+@media only screen and (max-width: 920px) {
+    .intro {
+        font-size: 1.5rem;
+        font-weight: 32rem;
+    }
+
+    span a {
+      position:relative;
+      right: 6rem;
+    }
+
+    .main .img {
+      bottom: 80%;
+      width: 33%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+  span a {
+    position: relative;
+    right: 4.25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main .img {
+    width: 40%;
+  }
+
+  span a {
+    position:relative;
+    right: 4rem;
+    width: 100%;
+} 
+
+.intro {
+  font-size: 1.25rem;
+}
+}
+
+@media only screen and (max-width: 550px) {
+
+  span a {
+    position:relative;
+    right: 3.75rem;
+  }
+
+  .main .img {
+    bottom: 135%;
+    width: 35%;
+  }
+
+  header {
+    height: 2rem;
+  }
+
+  body {
+    margin-top: 0;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+    padding-top: 3.5rem;
+  }
+}
+
+
+
+
+
+
+
+.background {
+  display: block;
+  position: center;
+  justify-items: center;
+  height: 22rem;
+  overflow: scroll;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: white;
+  padding-bottom: 3rem;
+}
+
+.u {
+  font-size: 2rem;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.edu .school {
+    height: 12rem;
+  }
+
+  .edu p {
+    position: relative;
+    text-align: center;
+    height: 5rem;
+  }
+  
+  .edu .logo {
+    position: center;
+    margin: 0 auto;
+  }
+
+/*
+#features-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    background-color: #f3f3f3;
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+    background-color: white;
+  }
+  
+  .feature .content {
+    padding: 2.5rem 0;
+  }
+  
+  .feature .image-container {
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+  }
+  
+  .feature h2 {
+    padding-bottom: .5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+  
+  .feature h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #4a4a4a;
+  }
+
+  */
