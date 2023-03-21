@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zivko's CV</title>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="intro">
+                <span><a href="#background">backgroung</a></span>
+                <span><a href="#portfolio">portfolio</a></span>
+        </header>
+        <section class="main">
+          <div cslass="conteiner">
+            <div class="bio">
+                <h1>zivko badev</h1>
+                <p>i think that writhing about my character is a waste of time. Characters change, behaviours are more important and are very relative to the environment your are situated in. that’s why i am going to spare you of unnecessary explanations and emotional outbursts. let’s just say i am a dedicated, loyal, analytical and detail oriented at the BACK-END but, most importantly i am lightning fast at grasping new concepts and learning in general.<br><br>
+                check out my BACKGROUND.<br><br>
+                the decision to chose CODING as my ultimate path came after a relatively long search. i love marketing and i am good at creating products but, i wasn't able to produce them because of luck of technical knowledge especially in the area of WEB and APP development. so, by looking for a way to bridge the gap between my marketing knowledge & experience, creativity and product development i found that in order to be able to communicate and work with people that build APPs and WEB PAGES i need to now what they know.<br><br>
+                my unique bland of MARKETING Seniority and CODING Juniority can be of a use in many companies in the IT sector.<br><br>
+                ideally, i would love to start as Junior JS or Python developer and grow to a Product Owner position.</p>
+            </div>
+            <div class="img">
+              <img class="nerd" src="./resources/img/IMG_1690.jpeg" alt="A picture of Zivko Badev">
+            </div>
+          </div>
+        </section>
+        <section class="background">
+          <div cslass="conteiner"></div>
+           <div class="edu"></div>
+             <h2 class="u">University</h2>
+                    <img class="logo" src="./resources/img/act_burgundy_logo.png" alt="ACT logo">
+                    <p class="school">ACT - American College of Thessaloniki<br><br>
+                    Degree: Bachelor of Science In Business Administration<br><br>
+                    Marketing Concentration</p>
+                </div>  
+              </div>  
+    </body>
+</html>
